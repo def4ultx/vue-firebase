@@ -32,7 +32,7 @@ export default {
         .then(user => {
           // this.$router.replace('/movie')
           this.$router.push({
-            name: 'MovieList'
+            name: 'CityList'
           })
         })
         .catch(e => {
